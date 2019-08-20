@@ -1,3 +1,2 @@
-# DocumentationCenter
+# Initial page
 
-## test
