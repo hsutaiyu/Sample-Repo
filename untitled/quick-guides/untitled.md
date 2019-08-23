@@ -15,7 +15,7 @@ The code written in the two different environments is not mutually interchangeab
 This guides aims at providing a surface level introduction for some of the more commonly used interfaces- login, signature data, contract query, and contract invocation.
 
 {% hint style="info" %}
-Note: The data returned by the dAPI interface is referred to as "Promise"
+Note: The data returned by the `dAPI` interface is referred to as "Promise"
 {% endhint %}
 
 ## Configuration Process
@@ -224,7 +224,7 @@ $ npm install
 $ npm run start
 ```
 
-![](../../.gitbook/assets/sc_demo3.jpg)
+![Message displayed in the shell command window](../../.gitbook/assets/sc_demo3.jpg)
 
 Upon successfully installing and running the application, it can be accessed using the address - [http://localhost:3000](http://localhost:3000).
 
