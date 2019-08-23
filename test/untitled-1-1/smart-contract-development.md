@@ -2,7 +2,7 @@
 description: A quick guide on how to develop smart contracts using Ontology's SmartX IDE.
 ---
 
-# SmartX Basics
+# SmartX IDE Basics
 
 This brief tutorial will help you with private chain smart contract set-up, deployment, testing, and finally deployment on the main net.
 
