@@ -4,7 +4,7 @@ description: Smart Contract development using Ontology's dAPI
 
 # Using the dAPI
 
-The `dAPI` supports browser \(currently limited to Google Chrome\) and mobile based development \(implemented using `Cyano` wallet that employs `dAPI` interface\).
+The `dAPI` has been created to specifically facilitate `dApp` development. It supports browser \(currently limited to Google Chrome\) and mobile based `dApp` development \(implemented using `Cyano` wallet that employs `dAPI` interface\).
 
 The mobile version of `dAPI` provides a limited number of the more significant interfaces only. The interfaces that query block transactions, or other interfaces that perform similar functions can directly invoke the `explorer` API interface. The `dAPI` interface set of the `chrome` plug-in is overall more comprehensive.
 
