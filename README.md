@@ -4,7 +4,7 @@ description: '----------x-----------'
 
 # Introduction
 
-Ontology is a next-gen network of public blockchains, and a distributed, faith based collaboration platform with integrated support for ledger accounts and smart contracts.
+Ontology is a next-gen network of public blockchains, and a distributed, trust-based collaboration platform with integrated support for ledger accounts and smart contracts.
 
 Apart from providing the more basic public chain support, Ontology also supports the public chains of the applications that have been developed on it's framework and collaboration with various protocol groups.
 

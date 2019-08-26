@@ -128,7 +128,7 @@ The collapsed `result` tab in the pop-up window includes detailed information wi
 
 ### 5. Migrating to Main net
 
-Once the testing phase completes, the need to deploy the contract to the Ontology main net may arise.
+Once the testing phase completes, we can move on to deploying the smart contract on the `MAIN-NET`.
 
 First, bring up the `Cyano` wallet and access settings by clicking on the cog ![](../../.gitbook/assets/cyano_settings_cog.jpg) in the top right hand corner.
 
