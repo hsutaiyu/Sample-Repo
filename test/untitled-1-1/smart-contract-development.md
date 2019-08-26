@@ -34,13 +34,13 @@ Please note down the IP address that is displayed in the control panel for futur
 
 ### 2. Install Cyano Wallet plugin in Google Chrome
 
-Cyano wallet is a chrome integrated development program which allows developers to deploy and test smart contracts on the test net and main net.
+`Cyano` wallet is a chrome integrated development program which allows developers to deploy and test smart contracts on the test net and main net.
 
-Install Cyano wallet and then in the main window click on the ![](../../.gitbook/assets/cyano_settings_cog.jpg) icon in the top right corner.
+Install `Cyano` wallet and then in the main window click on the ![](../../.gitbook/assets/cyano_settings_cog.jpg) icon in the top right corner.
 
 ![](../../.gitbook/assets/sc_cyano_connected.jpg)
 
-Change the "Net" option to **`PRIVATE-NET`**, and paste the IP address copied from the Cyano wallet \(Under normal circumstances the address of the private node is `127.0.0.1`\). Save the settings by scrolling down and clicking the save button at the bottom.
+Change the "Net" option to **`PRIVATE-NET`**, and paste the IP address copied from solo-chain \(Under normal circumstances the address of the private node is `127.0.0.1`\). Save the settings by scrolling down and clicking the save button at the bottom.
 
 Once `Cyano` successfully connects to the private net, the ![](../../.gitbook/assets/sc_disconnected.jpg) icon at the bottom right corner of the wallet window will change to![](../../.gitbook/assets/cyanosettingspage-fu-ben.jpg) icon indicating that the connection has been successfully established.
 
@@ -50,15 +50,15 @@ For users with slower network speeds, the connection phase might take a few seco
 
 Next, the private key is imported to the `Cyano` wallet from the `solo-chain`.
 
-At the end, transactions can be initiated and the transaction fees can be drawn in ONG. The transaction fees here refer to the costs incurred during the testing and deployment phases of the smart contract respectively.
+At the end, transactions can be initiated and the transaction fees can be drawn in `ONG`. The transaction fees here refer to the costs incurred during the testing and deployment phases of the smart contract respectively.
 
 ### 3. Accessing SmartX IDE
 
-We will use SmartX to develop, compile, and test smart contracts. Useful information regarding Smart contract development can be found here. /add link/
+We will use `SmartX` to develop, compile, and test smart contracts. Useful information regarding Smart contract development can be found here. /add link/
 
 > Here's the link to the IDE - [https://smartx.ont.io/](https://smartx.ont.io/)
 
-You can login to SmartX using your Cyano wallet .dat file if you're already registered, or you can login  using Github.
+You can login to `SmartX` using your `Cyano` wallet .dat file if you're already registered, or you can login  using Github.
 
 ![](../../.gitbook/assets/sc_newproject.jpg)
 
@@ -78,7 +78,7 @@ The next window that pops up is the main IDE that encapsulates editing, compilat
 
 ![](../../.gitbook/assets/sc_compile.jpg)
 
-Once you complete the editing process of your code, it can compiled using the compile function that is accessible from the right hand side pane under the compile section. If the code is successfully compiled, a lot of useful information such as the `AVM` bytecode and the `ABI` details will be displayed on the bottom.
+Once you complete the editing process of your code, it can be compiled using the compile function that is accessible from the right hand side pane under the compile section. If the code is successfully compiled, a lot of useful information such as the `AVM` bytecode and the `ABI` details will be displayed on the bottom.
 
 Next, you may proceed to deploy the contract. 
 

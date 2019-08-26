@@ -19,6 +19,7 @@
 * [Development Guides](test/untitled-1-1/README.md)
   * [SmartX IDE Basics](test/untitled-1-1/smart-contract-development.md)
   * [Using the dAPI](test/untitled-1-1/untitled-1.md)
+  * [Data Synchronization](test/untitled-1-1/data-synchronization.md)
   * [How to build a dApp](test/untitled-1-1/untitled.md)
   * [How to build a smart contract](test/untitled-1-1/how-to-build-a-smart-contract.md)
   * [Ontology Multi Chain](test/untitled-1-1/ontology-multi-chain.md)

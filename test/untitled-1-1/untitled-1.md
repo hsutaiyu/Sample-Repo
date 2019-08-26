@@ -254,7 +254,7 @@ The `Cyano` wallet's confirmation window will automatically pop up. Confirm the 
 
 ![](../../.gitbook/assets/sc_demo7.jpg)
 
-At this point the changes will be reflected in your wallet. The amount that you selected, along with 0.01 ONG\(gas price\) will be deducted from your wallet. Other transaction related details can be found in the `explorer`. The explorer can be accessed from [here](https://explorer.ont.io).
+At this point, the changes will be reflected in your wallet. The amount that you selected, along with 0.01 ONG \(gas price\) will be deducted from your wallet. Other transaction related details can be found in the `explorer`. The explorer can be accessed from [here](https://explorer.ont.io).
 
 ![](../../.gitbook/assets/sc_demo6.jpg)
 
