@@ -96,7 +96,7 @@ Fill in the details and deploy the contract.
 
 Using `solo-chain`, it can be confirmed whether or not the smart contract was successfully deployed. If the contract is deployed successfully you may then run it.
 
-Under the run tab, the contract hash and a drop down list populated with the available functions can be accessed. The respective arguments in their corresponding data types can passed through this pane.
+Under the run tab, the contract hash and a drop down list populated with the available functions can be accessed. The respective arguments in their corresponding data types can be passed through this pane.
 
 ![](../../.gitbook/assets/sc_run_register.jpg)
 
