@@ -33,7 +33,8 @@
 ## ONTOLOGY NODE
 
 * [Introduction](ontology-node/untitled-1.md)
-* [Command Line Interface](ontology-node/untitled.md)
+* [Command Line Interface](ontology-node/untitled/README.md)
+  * [Node Deployment](ontology-node/untitled/node-deployment.md)
 * [Interact with a public node](ontology-node/interact-with-a-public-node/README.md)
   * [RPC API](ontology-node/interact-with-a-public-node/rpc-api.md)
   * [RESTful API](ontology-node/interact-with-a-public-node/restful-api.md)
