@@ -1,4 +1,4 @@
-# siovanus/OEPs
+# Ontology Oracle
 
 ```text
   OEP: 34
