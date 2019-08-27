@@ -2,7 +2,7 @@
 
 
 
-1. Ontology App Listing 
+1. Ontology App Listing  / Submit your dApp
 2. Ontology Incentive Programs
 3. Become a Partner
 4. Become a Trust Anchor
