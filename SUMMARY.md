@@ -42,6 +42,14 @@
 * [Deploy a node](ontology-node/deploy-a-node.md)
 * [Command reference](ontology-node/command-reference.md)
 
+## ONTOLOGY EXTENSIONS
+
+* [OEP Token Standards](ontology-extensions/oep-token-standards.md)
+* [Ontology Multichain](ontology-extensions/ontology-multichain.md)
+* [Ontology Sharding](ontology-extensions/ontology-sharding.md)
+* [Anonymous Credential](ontology-extensions/anonymous-credential.md)
+* [Oracle](ontology-extensions/oep-5.md)
+
 ## DEVELOPER PRODUCTS
 
 * [DApp Development Framework](developer-products/untitled.md)
