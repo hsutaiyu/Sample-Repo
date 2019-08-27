@@ -1,2 +1,2 @@
-# Web Extenstions
+# Chrome Wallet Extension
 

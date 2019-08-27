@@ -66,7 +66,7 @@
   * [Untitled](developer-products/sdks/untitled-3.md)
   * [Untitled](developer-products/sdks/untitled-2.md)
   * [Untitled](developer-products/sdks/untitled.md)
-* [Web Extenstions](developer-products/web-extenstions.md)
+* [Chrome Wallet Extension](developer-products/web-extenstions.md)
 * [Blockchain Explorer](developer-products/blockchain-explorer-1.md)
 * [Signature Server](developer-products/signature-server-1.md)
 
