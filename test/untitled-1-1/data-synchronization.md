@@ -4,9 +4,9 @@ description: Synchronizing your local database with the data on the chain
 
 # Data Synchronization
 
-Every time a `dApp` needs to fetch the data stored on the chain \(i.e., transaction records and such\), it can do so by querying the public **Explorer API /add link/.** But this would only be feasible for the `dApps` that have a low query rate, or execute queries at a lower frequency. 
+Every time a `dApp` needs to fetch the data stored on the chain \(i.e., transaction records, etc.\), it can do so by querying the public **Explorer API /add link/.** But this would only be feasible for the `dApps` that have a low query rate, or execute queries at a lower frequency. 
 
-`dApps` with higher query requirements both in terms of number and frequency cannot work at optimum efficiency when using the Explorer interface. Therefore, to target this specific issue, Ontology introduced a new method which allows the application's local database to synchronize its data with the data on the chain.
+`dApps` with higher query requirements both in terms of number and frequency cannot work at optimum efficiency when using the Explorer interface. Therefore, to target this specific issue, Ontology introduced a new method which allows the application's local database to synchronize its data with the chain.
 
 {% hint style="warning" %}
 Synchronizing the local database with the chain is an option, and not a requirement for `dApp` development. Developers are advised to analyze the specific requirements for their respective applications to make this judgement.
@@ -39,7 +39,7 @@ and the main net nodes are-
 **10334** port of the first nodes of the Polaris test net net and the main net support HTTPS
 {% endhint %}
 
-### 2. Running your own node
+### 2. Running your own node 
 
 Depending on the architecture of the `dApp` the developer may choose to personally run a synchronization node. Fore more details and a quick walkthrough, refer to - 
 

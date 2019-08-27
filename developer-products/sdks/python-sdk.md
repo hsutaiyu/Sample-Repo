@@ -184,12 +184,7 @@ Gets the current network ID asynchronously.
 #### get merkle proof <a id="get-merkle-proof"></a>
 
 ```text
-from ontology.sdk import Ontology
 
-sdk = Ontology()
-sdk.websocket.connect_to_test_net()
-tx_hash = '12943957b10643f04d89938925306fa342cec9d32925f5bd8e9ea7ce912d16d3'
-merkle_proof = await sdk.websocket.get_merkle_proof(tx_hash)
 ```
 
 Gets merkle proof of specific transaction asynchronously.

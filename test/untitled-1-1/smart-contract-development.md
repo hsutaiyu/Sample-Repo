@@ -4,7 +4,7 @@ description: A quick guide on how to develop smart contracts using Ontology's Sm
 
 # SmartX IDE Basics
 
-This brief tutorial will help you with private chain smart contract set-up, deployment, testing, and finally deployment on the main net.
+This brief tutorial will help you with private chain smart contract set-up, testing, and finally deployment on the main net.
 
 There are certain tools that will be key to the process that follows-
 
