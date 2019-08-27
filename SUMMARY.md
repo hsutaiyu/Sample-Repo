@@ -6,7 +6,7 @@
 * [Tools and Components](tools-and-components.md)
 * [Ontology Protocols](untitled-1/README.md)
   * [Smart Contract](untitled-1/smart-contract.md)
-  * [Ontology Enhancement Proposal \(OEP\)](untitled-1/ontology-enhancement-proposal.md)
+  * [ONT Enhancement Proposals](untitled-1/ontology-enhancement-proposal.md)
   * [Consensus Mechanism](untitled-1/consensus-mechanism.md)
   * [Distributed Identity Framework](untitled-1/distributed-identity-framework.md)
   * [Distributed Data Exchange Framework](untitled-1/distributed-data-exchange-framework.md)
