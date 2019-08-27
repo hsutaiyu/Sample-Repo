@@ -42,14 +42,6 @@
 * [Deploy a node](ontology-node/deploy-a-node.md)
 * [Command reference](ontology-node/command-reference.md)
 
-## ONTOLOGY EXTENSIONS
-
-* [OEP Token Standards](ontology-extensions/oep-token-standards.md)
-* [Ontology Multichain](ontology-extensions/ontology-multichain.md)
-* [Ontology Sharding](ontology-extensions/ontology-sharding.md)
-* [Ontology Oracle](ontology-extensions/oep-5.md)
-* [Anonymous-Credential](ontology-extensions/anonymous-credential.md)
-
 ## DEVELOPER PRODUCTS
 
 * [DApp Development Framework](developer-products/untitled.md)
@@ -69,6 +61,14 @@
 * [Chrome Wallet Extension](developer-products/web-extenstions.md)
 * [Blockchain Explorer](developer-products/blockchain-explorer-1.md)
 * [Signature Server](developer-products/signature-server-1.md)
+
+## ONTOLOGY EXTENSIONS
+
+* [OEP Token Standards](ontology-extensions/oep-token-standards.md)
+* [Ontology Multichain](ontology-extensions/ontology-multichain.md)
+* [Ontology Sharding](ontology-extensions/ontology-sharding.md)
+* [Ontology Oracle](ontology-extensions/oep-5.md)
+* [Anonymous-Credential](ontology-extensions/anonymous-credential.md)
 
 ## COMMUNITY
 
