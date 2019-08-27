@@ -54,12 +54,6 @@
 
 * [DApp Development Framework](developer-products/untitled.md)
 * [IDE](developer-products/ide.md)
-* [API](developer-products/api.md)
-* [SDK](developer-products/sdk.md)
-* [Web Extensions](developer-products/web-extensions.md)
-* [Blockchain Explorer](developer-products/blockchain-explorer.md)
-* [Signature Server](developer-products/signature-server.md)
-* [IDE](developer-products/ide-1.md)
 * [APIs](developer-products/apis.md)
 * [SDKs](developer-products/sdks/README.md)
   * [Go SDK](developer-products/sdks/go-sdk.md)
