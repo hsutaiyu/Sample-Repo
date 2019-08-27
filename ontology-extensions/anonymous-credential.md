@@ -1,4 +1,4 @@
-# Anonymous-Credential
+# Anonymous Credential
 
 In an anonymous credential scheme there are **three** participants: issuer, user\(prover\), verifier.
 

@@ -68,7 +68,7 @@
 * [Ontology Multichain](ontology-extensions/ontology-multichain.md)
 * [Ontology Sharding](ontology-extensions/ontology-sharding.md)
 * [Ontology Oracle](ontology-extensions/oep-5.md)
-* [Anonymous-Credential](ontology-extensions/anonymous-credential.md)
+* [Anonymous Credential](ontology-extensions/anonymous-credential.md)
 
 ## COMMUNITY
 
