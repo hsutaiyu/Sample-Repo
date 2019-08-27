@@ -47,8 +47,8 @@
 * [OEP Token Standards](ontology-extensions/oep-token-standards.md)
 * [Ontology Multichain](ontology-extensions/ontology-multichain.md)
 * [Ontology Sharding](ontology-extensions/ontology-sharding.md)
-* [Anonymous Credential](ontology-extensions/anonymous-credential.md)
-* [Oracle](ontology-extensions/oep-5.md)
+* [Anonymous-Credential](ontology-extensions/anonymous-credential.md)
+* [siovanus/OEPs](ontology-extensions/oep-5.md)
 
 ## DEVELOPER PRODUCTS
 
