@@ -169,7 +169,7 @@ type NotifyEventInfo struct {
 }
 ```
 
-* The method that monitors for special or specific contract events could look something like:
+* The method that listens for special or specific contract events could look something like:
 
 ```java
 public void run() {
@@ -215,4 +215,6 @@ public void run() {
 
 }
 ```
+
+
 
