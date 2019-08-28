@@ -87,7 +87,7 @@ The dApps that are currently using dAPI can be found by following the below link
 
 ## Wallet Demonstration
 
-The most common method of launching a dApp from within the wallet is illustrated here. The process and a few basic functions are demonstrated below.
+The most common method of launching a `dApp` from within the wallet is illustrated here. The process and a few basic functions are demonstrated below.
 
 {% hint style="info" %}
 **H5 demo dApp source code:**  [https://github.com/ontio-cyano/mobile-dapp-demo](https://github.com/ontio-cyano/mobile-dapp-demo)
@@ -97,15 +97,25 @@ The most common method of launching a dApp from within the wallet is illustrated
 **Cyano wallet mobile version \(Android\):** [http://101.132.193.149/files/app-debug.apk](http://101.132.193.149/files/app-debug.apk)
 {% endhint %}
 
+After completing the installation of `Cyano` wallet, you can test your `dApp` by performing transactions through the demo app.
+
+### 1. Open a dApp in the wallet
+
+Launch the wallet and access the "DApp" section. Open the "PRIVATE APPS" tab and input this address to access the demo `dApp`: [http://101.132.193.149:5000/\#/](http://101.132.193.149:5000/#/)
+
+You can also input your local address where you have deployed your `dApp` to open your own app.
+
+![](../../.gitbook/assets/dapp_integration_comb1.jpg)
 
 
-### 1. Open the demo dApp in the wallet
 
+### 2. Fetch Account or Identity Information
 
+![](../../.gitbook/assets/dapp_integration_demo1.jpg)
 
+Clicking on the Get Identity button will directly fetch the ONT ID of the account. Enter the password when prompted and the ID will appear in the blank field below. You can carry out the authorization/KYC by uploading your document information, for e.g, passport number, picture of the first page, etc.
 
-
-
+![](../../.gitbook/assets/dapp_integration_demo5.jpg)
 
 
 
