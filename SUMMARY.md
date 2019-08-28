@@ -25,7 +25,7 @@
   * [How to build a smart contract](test/untitled-1-1/how-to-build-a-smart-contract.md)
   * [Ontology Multi Chain](test/untitled-1-1/ontology-multi-chain.md)
 * [Integration Guides](test/integration-guides/README.md)
-  * [How to integrate a dApp](test/integration-guides/how-to-integrate-an-dapp.md)
+  * [dApp Integration](test/integration-guides/how-to-integrate-an-dapp.md)
   * [Ontology for Crypto Exchanges](test/integration-guides/ontology-for-crypto-exchanges.md)
   * [Ontology for Crypto Wallets](test/integration-guides/ontology-for-crypto-wallets.md)
   * [Ontology for dApp Stores](test/integration-guides/ontology-for-dapp-stores.md)
