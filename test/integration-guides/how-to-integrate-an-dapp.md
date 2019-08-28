@@ -4,7 +4,7 @@ description: General integration methods and functionalities
 
 # dApp Integration
 
-## Primary functionalities
+## Primary Functionalities
 
 From a developer's point of view, the functions that facilitate interaction with Ontology's chain can be broadly categorized as follows:
 
@@ -50,7 +50,7 @@ def transferOng(from_base58, to_base58,  ong_amount):
 * _**Smart contract development:**_  As far as the vast majority of `dApps` are concerned, logic implementation either relies completely, or at least in part, on smart contracts. Considering games, for instance, functions such as buying, selling, renting, or generating random numbers, etc. can conveniently be implemented using smart contracts. For more details on smart contracts, feel free to check [this](../../untitled-1/smart-contract.md) out.
 * _**Tokenizing assets:**_  Developers always have the option to tokenize and issue many different types of assets, such as `OEP4`, `OEP5`, `OEP8`, etc. For a more detailed explanation of the aforementioned assets, refer to [this](../../untitled-1/tokens-and-assets.md).
 
-## Integration options
+## Integration Options
 
 Keeping in mind the different circumstances and scenarios that the developers might be working with, Ontology provides multiple ways to integrate the platform into a `dApp`.
 
@@ -62,7 +62,7 @@ No matter which one of the above methods you choose to integrate your `dApp`,  t
 
 To implement the functions discussed above, there are two technically decentralized `dApp` integration methods, both of which offer the same functionality in every way. The choice rests with the developer.
 
-### 1. dAPI integration 
+## dAPI Compatability
 
 Unlike traditional apps, a `dApp` doesn't have a centralized back end platform that manages accounts. The user maintains full possession and control of their identity and assets. That is the reason why apart from building the app's logic using smart contracts, `dApps` need to employ various means to interact and communicate with the chain.
 
@@ -85,6 +85,30 @@ The dApps that are currently using dAPI can be found by following the below link
 
 [https://github.com/ontio-community/dapp-store](https://github.com/ontio-community/dapp-store)
 
+## Wallet Demonstration
+
+The most common method of launching a dApp from within the wallet is illustrated here. The process and a few basic functions are demonstrated below.
+
+{% hint style="info" %}
+**H5 demo dApp source code:**  [https://github.com/ontio-cyano/mobile-dapp-demo](https://github.com/ontio-cyano/mobile-dapp-demo)
+
+**H5 demo dApp link:** [http://101.132.193.149:5000/\#/](http://101.132.193.149:5000/#/)
+
+**Cyano wallet mobile version \(Android\):** [http://101.132.193.149/files/app-debug.apk](http://101.132.193.149/files/app-debug.apk)
+{% endhint %}
+
+
+
+### 1. Open the demo dApp in the wallet
+
+
+
+
+
+
+
+
+
 
 
 
@@ -93,6 +117,8 @@ There are 2 advantages of using the the `dAPI` integration method-
 
 * The user can maintain possession of the assets and data.
 * The wallet login dApp can be readily integrated and conveniently used.
+
+For detailed information on the **integration protocol,** please follow [this](https://github.com/ontio-cyano/CEPs/blob/master/CEPS/CEP1.mediawiki) link.
 
 
 
