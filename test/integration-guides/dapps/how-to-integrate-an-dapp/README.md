@@ -2,9 +2,9 @@
 description: General integration methods and functionalities
 ---
 
-# dApp Integration
+# dAPI Integration
 
-## Primary Functionalities
+## Primary Functionality
 
 From a developer's point of view, the functions that facilitate interaction with Ontology's chain can be broadly categorized as follows:
 
@@ -47,8 +47,8 @@ def transferOng(from_base58, to_base58,  ong_amount):
 
 ```
 
-* _**Smart contract development:**_  As far as the vast majority of `dApps` are concerned, logic implementation either relies completely, or at least in part, on smart contracts. Considering games, for instance, functions such as buying, selling, renting, or generating random numbers, etc. can conveniently be implemented using smart contracts. For more details on smart contracts, feel free to check [this](../../../untitled-1/smart-contract.md) out.
-* _**Tokenizing assets:**_  Developers always have the option to tokenize and issue many different types of assets, such as `OEP4`, `OEP5`, `OEP8`, etc. For a more detailed explanation of the aforementioned assets, refer to [this](../../../untitled-1/tokens-and-assets.md).
+* _**Smart contract development:**_  As far as the vast majority of `dApps` are concerned, logic implementation either relies completely, or at least in part, on smart contracts. Considering games, for instance, functions such as buying, selling, renting, or generating random numbers, etc. can conveniently be implemented using smart contracts. For more details on smart contracts, feel free to check [this](../../../../untitled-1/smart-contract.md) out.
+* _**Tokenizing assets:**_  Developers always have the option to tokenize and issue many different types of assets, such as `OEP4`, `OEP5`, `OEP8`, etc. For a more detailed explanation of the aforementioned assets, refer to [this](../../../../untitled-1/tokens-and-assets.md).
 
 ## Integration Options
 
@@ -105,21 +105,21 @@ Launch the wallet and access the "DApp" section. Open the "PRIVATE APPS" tab and
 
 You can also input your local address where you have deployed your `dApp` to open your own app.
 
-![](../../../.gitbook/assets/dapp_integration_comb1.jpg)
+![](../../../../.gitbook/assets/dapp_integration_comb1.jpg)
 
 
 
 ### 2. Fetch Account or Identity Information
 
-![](../../../.gitbook/assets/dapp_integration_demo1.jpg)
+![](../../../../.gitbook/assets/dapp_integration_demo1.jpg)
 
 Clicking on the Get Identity button will directly fetch the ONT ID of the account. Enter the password when prompted and the ID will appear in the blank field below. You can carry out the authorization/KYC by uploading your document information, for e.g, passport number, picture of the first page, etc.
 
-![](../../../.gitbook/assets/dapp_integration_demo5.jpg)
+![](../../../../.gitbook/assets/dapp_integration_demo5.jpg)
 
 ### 3. Login into the dApp
 
-![](../../../.gitbook/assets/dapp_integration_comb4.jpg)
+![](../../../../.gitbook/assets/dapp_integration_comb4.jpg)
 
 In case there is a need to verify the user's identity, dApp sends a message to the wallet to carry out the signature process, and then verifies the signature.
 
@@ -127,7 +127,7 @@ As illustrated above, the wallet prompts the user to enter the password. Once co
 
 ### 4. dApp Contract Deployment
 
-![](../../../.gitbook/assets/dapp_integration_comb5.jpg)
+![](../../../../.gitbook/assets/dapp_integration_comb5.jpg)
 
 The contract deployment process involves the following steps:
 

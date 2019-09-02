@@ -1,2 +1,2 @@
-# Ontology for Crypto Wallets
+# Mobile Wallet Integration
 
