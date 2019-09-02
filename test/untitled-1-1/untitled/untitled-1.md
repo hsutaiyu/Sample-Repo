@@ -20,7 +20,7 @@ Note: The data returned by the `dAPI` interface is referred to as "Promise"
 
 ## Configuration Process
 
-![dAPI Installation Flowchart](../../.gitbook/assets/dapi-intro.svg)
+![dAPI Installation Flowchart](../../../.gitbook/assets/dapi-intro.svg)
 
 ### 1. Installing dAPI
 
@@ -224,7 +224,7 @@ $ npm install
 $ npm run start
 ```
 
-![Message displayed in the shell command window](../../.gitbook/assets/sc_demo3.jpg)
+![Message displayed in the shell command window](../../../.gitbook/assets/sc_demo3.jpg)
 
 Upon successfully installing and running the application, it can be accessed using the address - [http://localhost:3000](http://localhost:3000).
 
@@ -232,15 +232,15 @@ Upon successfully installing and running the application, it can be accessed usi
 Please ensure that the `Cyano` wallet Chrome extension is activated and running when the above page is opened.
 {% endhint %}
 
-![](../../.gitbook/assets/sc_demo1.jpg)
+![](../../../.gitbook/assets/sc_demo1.jpg)
 
 Once the page opens, you can click on **Provider**, and then **GetProvider** on the next page to check whether or not the application is functioning properly. A prompt should display the version of `Cyano` you have installed.
 
-![](../../.gitbook/assets/sc_demo2.jpg)
+![](../../../.gitbook/assets/sc_demo2.jpg)
 
 At this point, the app has successfully established a connection and can interact with the chain by invoking the API. For instance,  return to the main page and click on **Network** -&gt; **GetBlock**. The app will return block related information, as such -
 
-![](../../.gitbook/assets/sc_demo4.jpg)
+![](../../../.gitbook/assets/sc_demo4.jpg)
 
 To demonstrate the functionality of the application we can carry out an account transfer. To do so, click on **Asset** -&gt; **Make Transfer**. A default address will by default appear in the address field.
 
@@ -250,15 +250,15 @@ The transaction takes place on the `test-net`. Please ensure that your wallet is
 
 The `Cyano` wallet's confirmation window will automatically pop up. Confirm the transaction, and then once the transaction completes, it can be confirmed using Ontology's `Explorer` by using your public address or the transaction hash the Chrome prompt will display.
 
-![](../../.gitbook/assets/sc_demo5.jpg)
+![](../../../.gitbook/assets/sc_demo5.jpg)
 
-![](../../.gitbook/assets/sc_demo7.jpg)
+![](../../../.gitbook/assets/sc_demo7.jpg)
 
 At this point, the changes will be reflected in your wallet. The amount that you selected, along with 0.01 ONG \(gas price\) will be deducted from your wallet. Other transaction related details can be found in the `explorer`. The explorer can be accessed from [here](https://explorer.ont.io).
 
-![](../../.gitbook/assets/sc_demo6.jpg)
+![](../../../.gitbook/assets/sc_demo6.jpg)
 
-![](../../.gitbook/assets/sc_demo8.jpg)
+![](../../../.gitbook/assets/sc_demo8.jpg)
 
 
 
