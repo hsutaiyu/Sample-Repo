@@ -27,8 +27,8 @@
   * [dApps](test/integration-guides/dapps/README.md)
     * [dAPI Integration](test/integration-guides/dapps/how-to-integrate-an-dapp/README.md)
       * [Chrome Plugin](test/integration-guides/dapps/how-to-integrate-an-dapp/chrome-plugin.md)
-  * [Exchange API](test/integration-guides/ontology-for-crypto-exchanges.md)
   * [Mobile Wallet Integration](test/integration-guides/ontology-for-crypto-wallets.md)
+  * [Exchange API](test/integration-guides/ontology-for-crypto-exchanges.md)
   * [Ontology for dApp Stores](test/integration-guides/ontology-for-dapp-stores.md)
 * [Tutorials](test/tutorials.md)
 
