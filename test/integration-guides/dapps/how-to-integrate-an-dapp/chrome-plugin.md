@@ -18,7 +18,7 @@ To ensure that the requirement for `dApps` to be accessible on both the browser 
 
 Here is a step by step guide to assist developers with the integration process:
 
-### 1. Development environment set-up and Installation
+## 1. Development environment set-up and Installation
 
 Before starting with the actual development process, do ensure that the following tools are installed and set-up on your local machine.
 
@@ -33,7 +33,7 @@ Next, we can install Ontology's `dAPI`. While building `dApps`, this `dAPI` serv
 npm install ontology-dapi
 ```
 
-### 2. Creating a dAPI instance
+## 2. Creating a dAPI instance
 
 Creating a `dAPI` instance involves importing and registering the client-side, as such:
 
@@ -42,7 +42,60 @@ import { client } from 'ontology-dapi';
 client.registerClient({});
 ```
 
-### 3. Deploying dAPI methods
+## 3. Deploying dAPI methods
 
 Once a `dAPI` instance is created successfully, `dAPI` methods can be used in a given `dApp`.
+
+### Fetching account or identity information
+
+```javascript
+account = await client.api.asset.getAccount()
+res = await client.api.identity.getIdentity();
+```
+
+### **Smart contract methods**
+
+```javascript
+const result = await client.api.smartContract.invoke({contract,method,parameters,gasPrice,gasLimit,requireIdentity});
+const result = await client.api.smartContract.invokeRead({ contract, method, parameters });
+const result = await client.api.smartContract.deploy({code,name,version,author,email,description,needStorage,gasPrice,gasLimit});
+```
+
+### **Communication methods that assist interaction with the chain**
+
+```javascript
+const network = await client.api.network.getNetwork();
+const height = await client.api.network.getBlockHeight();
+const block = await client.api.network.getBlock({ block: 1 });
+const transaction = await client.api.network.getTransaction({txHash: '314e24e5bb0bd88852b2f13e673e5dcdfd53bdab909de8b9812644d6871bc05f'});
+const balance = await client.api.network.getBalance({ address: 'AcyLq3tokVpkMBMLALVMWRdVJ83TTgBUwU' });
+```
+
+### **Account transfer method**
+
+```javascript
+const result = await client.api.asset.makeTransfer({ recipient, asset, amount });
+```
+
+### Data signature methods
+
+```javascript
+const message: string = values.message;
+const signature: Signature = {
+  data,
+  publicKey
+};
+const result = await client.api.message.signMessage({ message });
+const result = await client.api.message.verifyMessage({ message, signature });
+```
+
+For a comprehensive list of all the available `dAPI` methods, please refer to the [dAPI Specification](https://github.com/backslash47/OEPs/blob/oep-dapp-api/OEP-6/OEP-6.mediawiki). 
+
+## 4. dAPI demonstration
+
+Follow the link below to refer to a demo dApp that utilizes the dAPI methods mentioned above.
+
+{% page-ref page="../../../untitled-1-1/untitled/untitled-1.md" %}
+
+
 

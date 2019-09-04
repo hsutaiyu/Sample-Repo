@@ -74,7 +74,7 @@ For more information on the method to implement back end signature verification,
 * [TypeScript SDK signature verification](https://github.com/ontio/ontology-ts-sdk/blob/master/test/ecdsa.crypto.test.ts)
 {% endhint %}
 
-### **Fetching Account Information or Identity**
+## **Fetching Account Information or Identity**
 
 While fetching the account or identity information, the users working with the mobile version `API` may choose not to submit the `dApp` information and leave the fields empty.
 
