@@ -10,5 +10,7 @@ Considering the current scenario, mobile wallets apps are an important port of e
 Details regarding the OEP-1 protocol can be found [here](https://github.com/ontio-cyano/CEPs/blob/master/CEPS/CEP1.mediawiki).
 {% endhint %}
 
+## Interaction Process
 
+![](../../../../.gitbook/assets/dapp-wallet-interaction-flow.svg)
 
