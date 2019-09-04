@@ -21,7 +21,7 @@ Before starting with the actual development process, do ensure that the followin
 * _**Cyano Wallet Chrome Plugin -**_ [Download link](https://chrome.google.com/webstore/detail/ontology-web-wallet/dkdedlpgdmmkkfjabffeganieamfklkm)
 * _**Git -**_ [Download link](https://git-scm.com/downloads)
 
-Next, we can install Ontology's `dAPI`. While building `dApps`, this `dAPI` serves as one of the core APIs that allow us to communicate with the chain. The source code can be downloaded [here](https://github.com/ontio/ontology-dapi). To carry out the installation using `npm`, use the following shell command:
+Next, we can install Ontology's `dAPI`. While building `dApps`, this `dAPI` serves as one of the core APIs that allow us to communicate with the chain. The source code can be downloaded [here](https://github.com/ontio/ontology-dapi). To carry out the installation using `npm`, use the following shell command:k
 
 ```bash
 npm install ontology-dapi
