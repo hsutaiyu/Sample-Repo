@@ -93,9 +93,28 @@ For a comprehensive list of all the available `dAPI` methods, please refer to th
 
 ## 4. dAPI demonstration
 
-Follow the link below to refer to a demo dApp that utilizes the dAPI methods mentioned above.
+Follow the link below to refer to a demo `dApp` that utilizes the `dAPI` methods mentioned above.
 
 {% page-ref page="../../../untitled-1-1/untitled/untitled-1.md" %}
+
+### How to set the gaslimit and gasprice
+
+Every transaction that takes place on the chain includes a `gaslimit` and `gasprice`.
+
+`gasprice` has a correlation with the amount of standby time while the given transaction is packaged. Currently, the lowest value of `gasprice` is 500 units on the test net and main net.
+
+The `gaslimit` of deployment contracts is set based on the complexity of smart contract's execution process. The minimum `gaslimit` value of a contract can be determined before deploying it by carrying out a pre-execution. The default `gaslimit` value of `native` contracts is 20000, while that of deployment contracts is usually higher than 20000000 units, generally speaking.
+
+### How to handle addresses
+
+The Chrome plugin Cyano wallet only accepts addresses in ByteArray format when importing addresses. While testing smart contracts in SmartX, the IDE automatically converts addresses to ByteArray format. So, there will be no address related issues during the deployment phase. However, in the developer's local environment, if the conversion is not carried out manually, the system will return an error.
+
+The following method can be used to convert addresses to ByteArray format in JavaScript:
+
+```javascript
+import {Crypto} from 'ontology-ts-sdk';
+var address = new Crypto.Address(account).serialize() //The "address" assigned here is in ByteArray format
+```
 
 
 
