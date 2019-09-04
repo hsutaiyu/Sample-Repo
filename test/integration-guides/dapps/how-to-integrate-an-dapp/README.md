@@ -60,7 +60,13 @@ Keeping in mind the different circumstances and scenarios that the developers mi
 
 No matter which one of the above methods you choose to integrate your `dApp`,  the login feature and the ability to deploy smart contracts remains constant and unaffected. Therefore, developers can freely choose any of the method to integrate `dApps`.
 
-To implement the functions discussed above, there are two technically decentralized `dApp` integration methods, both of which offer the same functionality in every way. The choice rests with the developer.
+As discussed above, there are two technically decentralized `dApp` integration methods, both of which offer the same functionality in every way. The choice rests with the developer.
+
+To satisfy that the requirement for `dApps` to be accessible on both the browser and the mobile version, here we provide examples that involve using `dAPI` in three different scenarios. You can refer to:
+
+* **Mobile version** `dAPI` **implementation -** [_dAPI for mobile_](https://github.com/ontio-cyano/cyano-bridge)\_\_
+* **Chrome plugin wallet** `dAPI` **implementation -** [_dAPI for chrome_](https://github.com/ontio/ontology-dapi)\_\_
+* **Example** `dAPI` **code compatible with both the Chrome plugin and the mobile version -** [_dAPI-universal_](https://github.com/ontio-cyano/dapi-universal)\_\_
 
 ## dAPI Compatability
 
@@ -83,7 +89,13 @@ Wallets that already support dAPI protocol-
 
 The dApps that are currently using dAPI can be found by following the below link-
 
-[https://github.com/ontio-community/dapp-store](https://github.com/ontio-community/dapp-store)
+{% embed url="https://github.com/ontio-community/dapp-store" %}
+
+To ensure that the requirement for `dApps` to be accessible on both the browser and the mobile version, here we provide examples that involve using `dAPI` in three different scenarios. You can refer to:
+
+* **Mobile version** `dAPI` **implementation -** [_dAPI for mobile_](https://github.com/ontio-cyano/cyano-bridge)\_\_
+* **Chrome plugin wallet** `dAPI` **implementation -** [_dAPI for chrome_](https://github.com/ontio/ontology-dapi)\_\_
+* **Example** `dAPI` **code compatible with both the Chrome plugin and the mobile version -** [_dAPI-universal_](https://github.com/ontio-cyano/dapi-universal)\_\_
 
 ## Wallet Demonstration
 
@@ -134,12 +146,6 @@ The contract deployment process involves the following steps:
 1. After the signature verification is completed successfully, the contract is pre-processed.
 2. The user confirms and transmits the transaction via the wallet.
 3. The `hash` value of the transaction is returned to the `dApp`.
-
-
-
-
-
- 
 
 There are 2 advantages of using the the `dAPI` integration method-
 
