@@ -296,3 +296,9 @@ The GET request content based on QR code's `qrcodeUrl` is as follows:
 }
 ```
 
+{% hint style="info" %}
+A Base58 address, for e.g., _AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ_  can be used to fill the `%address` parameter. The wallet converts the `%address` to the wallet's asset address. If the argument contains the `%ontid`, the wallet converts it to the wallet's `ontid` address.
+{% endhint %}
+
+
+
