@@ -68,7 +68,7 @@ To satisfy that the requirement for `dApps` to be accessible on both the browser
 * **Chrome plugin wallet** `dAPI` **implementation -** [_dAPI for chrome_](https://github.com/ontio/ontology-dapi)\_\_
 * **Example** `dAPI` **code compatible with both the Chrome plugin and the mobile version -** [_dAPI-universal_](https://github.com/ontio-cyano/dapi-universal)\_\_
 
-## dAPI Compatability
+## dAPI Compatibility
 
 Unlike traditional apps, a `dApp` doesn't have a centralized back end platform that manages accounts. The user maintains full possession and control of their identity and assets. That is the reason why apart from building the app's logic using smart contracts, `dApps` need to employ various means to interact and communicate with the chain.
 
