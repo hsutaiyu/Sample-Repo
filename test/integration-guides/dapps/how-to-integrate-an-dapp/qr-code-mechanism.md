@@ -300,5 +300,38 @@ The GET request content based on QR code's `qrcodeUrl` is as follows:
 A Base58 address, for e.g., _AUr5QUfeBADq6BMY6Tp5yuMsUNGpsD7nLZ_  can be used to fill the `%address` parameter. The wallet converts the `%address` to the wallet's asset address. If the argument contains the `%ontid`, the wallet converts it to the wallet's `ontid` address.
 {% endhint %}
 
+When a smart contract is deployed, if the `payer` is not specified in the QR code, it is taken from the wallet. If the `payer` has been explicitly specified, the wallet verifies if the `payer` specified is identical with the wallet's asset address.
 
+The `provider` initiates transactions, carries out user authentication and signature, pre-executes the contract, and finally passes the transaction has to the callback URL via POST method.
+
+_If the transaction succeeds, the wallet returns the following to callback:_
+
+```yaml
+{
+  "action": "invoke",
+  "id": "10ba038e-48da-487b-96e8-8d3b99b6d18a",
+  "error": 0,
+  "desc": "SUCCESS",
+  "result": "tx hash"
+}
+```
+
+_If the transaction fails, the wallet returns:_
+
+```yaml
+{
+  "action": "invoke",
+  "id": "10ba038e-48da-487b-96e8-8d3b99b6d18a",
+  "error": 80001,
+  "desc": "SEND TX ERROR",
+  "result": 1
+}
+```
+
+## Code base for Reference
+
+| **Signature verification methods** | **Transaction event query methods** | **Cyano Wallet** | **dAPI - Mobile provider SDK** | **dAPI - Mobile client SDK** |
+| :---: | :---: | :---: | :---: | :--- |
+| [Java SDK](https://github.com/ontio/ontology-java-sdk/blob/master/docs/cn/interface.md#%E7%AD%BE%E5%90%8D%E9%AA%8C%E7%AD%BE) | [Java SDK](https://github.com/ontio/ontology-java-sdk/blob/master/docs/cn/basic.md#%E4%B8%8E%E9%93%BE%E4%BA%A4%E4%BA%92%E6%8E%A5%E5%8F%A3) | [Cyano - Android](https://github.com/ontio-cyano/cyano-android) | [Cyano - Android SDK](https://github.com/ontio-cyano/cyano-android-sdk) | [Cyano bridge](https://github.com/ontio-cyano/cyano-bridge) |
+| [TypeScript SDK](https://github.com/ontio/ontology-ts-sdk/blob/master/test/ecdsa.crypto.test.ts) | [TypeScript SDK](https://github.com/ontio/ontology-ts-sdk/blob/master/test/websocket.test.ts) | [Cyano - iOS](https://github.com/ontio-cyano/cyano-ios) | [Cyano - iOS SDK](https://github.com/ontio-cyano/cyano-ios-sdk) |  |
 
