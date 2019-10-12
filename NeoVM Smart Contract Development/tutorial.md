@@ -1,3 +1,6 @@
+# NOTE: Ignore the broken links and placeholders for images.
+
+
 Smart contract development using NeoVM and SmartX -- The Basics
 
 1.  **Prerequisites**
